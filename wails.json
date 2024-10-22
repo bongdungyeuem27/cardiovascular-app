@@ -1,0 +1,14 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "app",
+  "outputfilename": "app",
+  "frontend:install": "bun install",
+  "frontend:build": "bun run --bun build",
+  "frontend:dev:watcher": "bun run --bun dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "",
+    "email": ""
+  },
+  "iconName": "favicon"
+}

@@ -1,0 +1,44 @@
+﻿FieldName​,Kiểu dữ liệu​,Dữ liệu​,Mô tả​,Kiểu dữ liệu mới​,Chuẩn hóa dữ liệu​
+GioiTinh​,Chuỗi​,Nam | Nữ | Không xác định​,Chuẩn hóa dữ liệu thành số: ​,Số​,0 | 1 | 2​
+,,,"0: Nam, 1: Nữ, 2: Không xác định​",,
+Tuoi​,Số​,0 -> 100​,Tuổi tại thời điểm khám bệnh​,​,​
+NamDTD​,Số​,YYYY​,Năm mắc đái tháo đường​,​,​
+SoNamDTD​,Số​,0 -> 100​,Year(NgayKham) - NamDTD​,​,​
+TăngHuyetAp​,Chuỗi​,False | True​,"Tiền căn tăng huyết áp (0: False, 1:True)​",Số​,0 | 1​
+RoiLoanLipid​,Chuỗi​,False | True​,"Rối loại lipid (0: False, 1:True)​",Số​,0 | 1​
+BenhVongMac​,Chuỗi​,False | True​,"Bệnh võng mạc (0: False, 1:True)​",Số​,0 | 1​
+BenhThanKinh​,Chuỗi​,False | True​,"Bệnh thần kinh (0: False, 1:True)​",Số​,0 | 1​
+DotQuy​,Chuỗi​,False | True​,"Đột quỵ (0: False, 1:True)​",Số​,0 | 1​
+ThuocLa​,Chuỗi​,Không | Có | Đã bỏ​,"Hút thuốc lá (0: Không, 1: Có, 2: Đã bỏ)​",Số​,0 | 1 | 2​
+RuouBia​,Chuỗi​,Không | Có | Đã bỏ​,"Uống rượu bia (0: Không, 1: Có, 2: Đã bỏ)​",Số​,0 | 1 | 2​
+DieuTriThuocHuyetAp​,Chuỗi​,False | True​,Đang điều trị thuốc huyết áp ​,Số​,0 | 1​
+,,,"(0: False, 1:True)​",,
+HbA1C​,Số​,​,Chỉ số đại điện cho tình trạng gắn kết của đường trên Hb hồng cầu.​,​,​
+,,,Dữ liệu cập nhật tự động từ hệ thống xét nghiệm.​,,
+,,,Đơn vị đo phần trăm (%). ​,,
+,,,+ HbA1c > 6.5%: kiểm soát đường huyết kém. ​,,
+,,,+ HbA1c < 6.5%: đang kiểm soát đường huyết tốt. ​,,
+Creatinin​,Số​,​,"Chỉ số nồng độ Creatinin trong cơ thể giúp thể hiện sự thóa hóa Creatin tồn tại trong các cơ, chúng được đào thải qua thận.​",​,​
+,,,Chỉ số phản ánh chính xác tình trạng và chức năng của thận​,,
+,,,Dữ liệu cập nhật tự động từ hệ thống xét nghiệm​,,
+,,,Đơn vị đo mmol/L. ​,,
+,,,"Người trưởng thành, nồng độ creatinine bình thường là: ​",,
+,,,+ Nam: từ 53- 106 mmol/l (từ 0.6 đến 1.2 mg/dl) ​,,
+,,,+ Nữ: từ 44- 97 mmol/l (0.5 đến 1.1 mg/dl ​,,
+eGFR​,Số​,​,"Chỉ số độ lọc cầu thận, chỉ số thể hiện lượng máu được lọc bởi các quản cầu thận trong mỗi phút.​",​,​
+,,,eGFR được tính toán dựa vào creatinin trong huyết thanh.​,,
+,,,Dữ liệu cập nhật tự động từ hệ thống xét nghiệm.​,,
+,,,Đơn vị đo mL/phút. ​,,
+,,,"Người trưởng thành có sức khỏe bình thường, độ lọc cầu thận ước tính là trên 90 mL/phút​",,
+DieuTriThuocStatin​,Chuỗi​,False | True​,Đang điều trị thuốc Statin (hạ mỡ máu)​,Số​,0 | 1​
+,,,"(0: False, 1:True)​",,
+DieuTriThuocInsulin​,Chuỗi​,False | True​,Đang điều trị thuốc Insulin​,Số​,0 | 1​
+,,,"(0: False, 1:True)​",,
+KhamBanChanPhai​,Chuỗi​,Bình thường | Bất thường | Chưa khám​,"Khám bàn chân phải (0: Bình thường, 1: Bất thường, 2:Chưa khám​",Số​,0 | 1 | 2​
+KhamBanChanTrai​,Chuỗi​,Bình thường | Bất thường | Chưa khám​,"Khám bàn chân trái (0: Bình thường, 1: Bất thường, 2:Chưa khám​",Số​,0 | 1 | 2​
+TienSuGiaDinh​,Chuỗi​,False | True​,Tiền sử đái tháo đường gia đình ​,Số​,0/1​
+,,,"(0: False | Không, ​",,
+,,,1:True | Ba mẹ bị đái tháo đường)​,,
+NhoiMauCoTim​,Chuỗi​,False | True​,Tiền căn nhồi máu cơ tim​,Số​,0/1​
+,,,"(0: False, 1:True)​",,
+KQPhanTangTimMach​,Số​,1 | 2 | 3​,1: Nguy cơ trung bình | 2: Nguy cơ cao | 3: Nguy cơ rất cao​,​,​
