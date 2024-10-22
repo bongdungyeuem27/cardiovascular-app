@@ -1,7 +1,6 @@
 package main
 
 import (
-	"app/configs"
 	"app/predict"
 	"context"
 	"embed"
@@ -20,14 +19,14 @@ import (
 //go:embed all:frontend/dist
 var assets embed.FS
 
-//go:embed all:favicon.png
+//go:embed all:frontend/public/favicon.png
 var icon []byte
 
 func main() {
 
-	configs.InitLogger()
+	// configs.InitLogger()
 
-	_logger := logger.NewFileLogger("app.log")
+	// _logger := logger.NewFileLogger("app.log")
 
 	predictApp := predict.NewApp()
 
@@ -72,7 +71,7 @@ func main() {
 		Menu:               AppMenu, // Reference the menu above
 		LogLevel:           logger.DEBUG,
 		LogLevelProduction: logger.ERROR,
-		Logger:             _logger,
+		// Logger:             _logger,
 		Mac: &mac.Options{
 			TitleBar: &mac.TitleBar{
 				TitlebarAppearsTransparent: false,
